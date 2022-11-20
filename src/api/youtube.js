@@ -10,5 +10,6 @@ export default axios.create({
         type: 'video',
         maxResults: 5,
         key: API_KEY,
+        origin: '*'
     },
 })
